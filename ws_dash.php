@@ -1,7 +1,8 @@
+<?php
 /*
 Plugin Name: WS Dash
 Plugin Author: Vachan Kudmule (_KDC-Labs)
-Description: Customizations for WhiteShadows clients.
+Description: White Shadows - Analytical Intelligence : A client dashboard for White Shadow clients.
 Version: 1.0
 */ 
 
@@ -13,7 +14,7 @@ function ws_login_logo() { ?>
             background-image: none, url('https://ws.ai/img/wp/ws-login-logo.svg?ver=20140922');
         }
     </style>
-<?php }
+}
 add_action( 'login_enqueue_scripts', 'ws_login_logo' );
 
 // changing the login page URL
