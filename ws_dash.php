@@ -7,7 +7,7 @@ Version: 1.0
 */ 
 
 // changing the login page URL
-function ws_login_logo() { ?>
+function ws_login_logo() {
     <style type="text/css">
         body.login div#login h1 a {
             background-image: url('https://ws.ai/img/wp/ws-login-logo.png?ver=20140922');
